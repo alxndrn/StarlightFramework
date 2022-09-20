@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\sharedinfo.targets" />
+
+	<ItemGroup>
+		<PackageReference Include="NUnit" Version="3.13.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Starlight.Containter\Starlight.Containter.csproj" />
+	  <ProjectReference Include="..\Starlight.Plugins\Starlight.Plugins.csproj" />
+	</ItemGroup>
+</Project>

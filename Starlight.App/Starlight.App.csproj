@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Configurations>Debug;QA</Configurations>
+  </PropertyGroup>
+  <Import Project="..\sharedinfo.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Starlight.Containter\Starlight.Containter.csproj" />
+  </ItemGroup>
+
+</Project>

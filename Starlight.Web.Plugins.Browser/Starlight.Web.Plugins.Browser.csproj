@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\sharedinfo.targets" />
+	<ItemGroup>
+	  <ProjectReference Include="..\Starlight.Configuration\Starlight.Configuration.csproj" />
+	  <ProjectReference Include="..\Starlight.Containter\Starlight.Containter.csproj" />
+	  <ProjectReference Include="..\Starlight.Plugins\Starlight.Plugins.csproj" />
+	  <ProjectReference Include="..\Starlight.Web\Starlight.Web.csproj" />
+	</ItemGroup>
+
+</Project>

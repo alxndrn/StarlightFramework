@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\sharedinfo.targets" />
+	<ItemGroup>
+	  <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+	  <PackageReference Include="Selenium.Support" Version="4.3.0" />
+	  <PackageReference Include="Selenium.WebDriver" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Starlight.App\Starlight.App.csproj" />
+	  <ProjectReference Include="..\Starlight.Configuration\Starlight.Configuration.csproj" />
+	  <ProjectReference Include="..\Starlight.Containter\Starlight.Containter.csproj" />
+	  <ProjectReference Include="..\Starlight.Logging\Starlight.Logging.csproj" />
+	  <ProjectReference Include="..\Starlight.NUnit\Starlight.NUnit.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Components\Common\" />
+	  <Folder Include="SmartAssertions\" />
+	</ItemGroup>
+
+</Project>
